@@ -11,8 +11,8 @@ __Todas las propiedades de España con sus características__. Incluyendo muchas
 Las características de este dataset son las siguientes:
 
 * __Frecuencia de actualización__: actualizado cada 3 meses
-* __Volumen estimado__: 
-* __Histórico__: 
+* __Volumen estimado__: 25 millones de registros
+* __Histórico__: desde septiembre de 2020
 
 El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#catastro-dataset), plataforma de referencia de datos externos en España. 
 
@@ -23,7 +23,7 @@ Este repositorio contiene los siguientes recursos:
 
 ## Muestra
 
-La muestra se encuentra disponible para descarga en el siguiente [link](https://github.com/Data-Market/catastro/blob/main/catastro-enriquecido-sample.csv).
+La muestra se encuentra disponible para descarga en el siguiente [link](https://github.com/Data-Market/catastro/blob/main/catastro-sample.csv).
 
 ## Documentación
 
