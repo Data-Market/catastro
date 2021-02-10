@@ -1,0 +1,6 @@
+province,town,street,number,latitude,longitude,year_built,total_floors,neighbors_per_floor,has_parking,has_swimming_pool,has_garden,has_lift,has_doorman,has_storage,area,is_residential,postal_code,name,reference
+castellon-provincia,moncofar-castellon,avenida-mare-nostrum,163,39.801345269,-0.129869198,1981,2,0,False,False,False,False,False,True,125,True,12593,Bajo 01,5898116YK4059N0001KM
+ciudad-real-provincia,brazatortas-ciudad-real,calle-vinas-b,18,38.657044878,-4.290981816,1980,1,1,False,False,True,False,False,True,234,True,13450,Inmueble,7798720UH8779N0001HJ
+valencia-provincia,villanueva-de-castellon-valencia,calle-baix-de,44,39.082639973,-0.517251201,1900,1,1,False,False,False,False,False,False,76,True,46270,Esc.1 Bajo 01,4890518YJ1249B0001XI
+barcelona-provincia,la-roca-del-valles-barcelona,calle-verge-de-montserrat,18,41.586299442,2.326111302,1991,0,1,False,False,True,False,False,True,205,True,08430,Inmueble,3942829DG4034S0001SY
+barcelona-provincia,sant-cugat-del-valles-barcelona,calle-turo-del-sol,27,41.448783792,2.074140921,1941,1,1,True,False,True,False,False,True,196,True,08198,Esc.1 Bajo 01,2792407DF2829B0001UK
