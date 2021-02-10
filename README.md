@@ -23,7 +23,7 @@ Este repositorio contiene los siguientes recursos:
 
 ## Muestra
 
-La muestra se encuentra disponible para descarga en el siguiente [link](https://github.com/Data-Market/catastro/blob/main/catastro-sample.csv).
+La muestra se encuentra disponible para descarga en el siguiente [link](https://github.com/Data-Market/catastro/blob/main/catastro-enriquecido-sample.csv).
 
 ## Documentación
 
