@@ -12,7 +12,7 @@ Las características de este dataset son las siguientes:
 
 * __Frecuencia de actualización__: actualizado cada 3 meses
 * __Volumen estimado__: 25 millones de registros
-* __Histórico__: desde septiembre de 2020
+* __Histórico__: desde septiembre de 2020 en adelante
 
 El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#catastro-dataset), plataforma de referencia de datos externos en España. 
 
