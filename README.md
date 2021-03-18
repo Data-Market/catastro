@@ -1,7 +1,7 @@
 # Datasets de Catastro
 
 <a href="https://datamarket.es">
-  <img src="https://datamarket.es/static/core/img/banners/catastro-banner.png">
+  <img src="https://datamarket.es/media/banners/catastro-banner.png">
 </a>
 
 ## Descripción
