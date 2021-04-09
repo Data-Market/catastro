@@ -31,23 +31,27 @@ A continuación se muestran las columnas de las que consta el dataset junto con 
 
 | nombre              | tipo | descripción                                                                 | ejemplo              |
 |---------------------|------|-----------------------------------------------------------------------------|----------------------|
-| province            | str  | Provincia donde está ubicado el inmueble.                                   | Guadalajara          |
-| town                | str  | Ciudad donde está ubicado el inmueble.                                      | Guadalajara          |
-| street              | str  | Calle donde está ubicado el inmueble.                                       | Calle Mayor          |
-| number              | str  | Número de la calle donde está ubicado el inmueble.                          | 34                   |
-| name                | str  | Nombre descriptivo del inmueble.                                            | Esc.E 1º DR          |
 | area                | int  | Superficie en m² de los que consta el inmueble.                             | 56                   |
-| is_residential      | bool | Indica si se trata de una vivienda (False significa que no es residencial). | True                 |
-| reference           | str  | Referencia catastral.                                                       | 6180804VK8968S0004IY |
-| postal_code         | int  | Código postal del inmueble.                                                 | 19001                |
-| latitude            | geo  | Latitud en la que se encuentra el inmueble.                                 | 40.631345746         |
-| longitude           | geo  | Longitud en la que se encuentra el inmueble.                                | -3.16518128          |
-| year_built          | int  | Año de construcción del edificio.                                           | 1930                 |
-| total_floors        | int  | Número de plantas del edificio.                                             | 5                    |
-| neighbors_per_floor | int  | Número de vecinos por planta.                                               | 1                    |
-| has_parking         | bool | Indica si el edificio tiene parking.                                        | False                |
-| has_swimming_pool   | bool | Indica si el edificio tiene piscina.                                        | False                |
+| autonomous_region   | str  | Comunidad autónoma a la que pertenece el inmueble.                          | Catilla - La Mancha  |
+| description         | str  | Nombre descriptivo del inmueble.                                            | Esc.E 1º DR          |
+| has_doorman         | bool | Indica si el edificio tiene portero.                                        | False                |
 | has_garden          | bool | Si el edificio tiene jardín.                                                | False                |
 | has_lift            | bool | Indica si el edificio tiene ascensor.                                       | False                |
-| has_doorman         | bool | Indica si el edificio tiene portero.                                        | False                |
+| has_parking         | bool | Indica si el edificio tiene parking.                                        | False                |
 | has_storage         | bool | Indica si el inmueble tiene trastero.                                       | True                 |
+| has_swimming_pool   | bool | Indica si el edificio tiene piscina.                                        | False                |
+| is_resindential     | bool | Indica si se trata de una vivienda (False significa que no es residencial). | True                 |
+| latitude            | geo  | Latitud en la que se encuentra el inmueble.                                 | 40.631345746         |
+| longitude           | geo  | Longitud en la que se encuentra el inmueble.                                | -3.16518128          |
+| neighbors_per_floor | int  | Número de vecinos por planta.                                               | 1                    |
+| number              | str  | Número de la calle donde está ubicado el inmueble.                          | 34                   |
+| postal_code         | int  | Código postal del inmueble.                                                 | 19001                |
+| province            | str  | Provincia donde está ubicado el inmueble.                                   | Guadalajara          |
+| province_utf        | str  | Provincia donde está ubicado el inmueble, procesada sin tildes y sin tildes.| guadalajara          |
+| reference           | str  | Referencia catastral.                                                       | 6180804VK8968S0004IY |
+| street              | str  | Calle donde está ubicado el inmueble.                                       | Calle Mayor          |
+| structures          | str  | Componentes estructurales que describen el inmueble.                        | []                   |
+| total_floors        | int  | Número de plantas del edificio.                                             | 5                    |
+| town                | str  | Ciudad donde está ubicado el inmueble.                                      | Guadalajara          |
+| typology            | str  | Tipo de uso del inmueble.                                                   | M                    |
+| year_built          | int  | Año de construcción del edificio.                                           | 1930                 |
