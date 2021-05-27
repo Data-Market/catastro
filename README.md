@@ -43,7 +43,6 @@ A continuación se muestran las columnas de las que consta el dataset junto con 
 | is_resindential | bool | Indica si se trata de una vivienda (False significa que no es residencial). | True |
 | latitude | geo | Latitud en la que se encuentra el inmueble. | 40.631345746 |
 | longitude | geo | Longitud en la que se encuentra el inmueble. | -3.16518128 |
-| neighbors_per_floor | int | Número de vecinos por planta. | 1 |
 | number | str | Número de la calle donde está ubicado el inmueble. | 34 |
 | postal_code | int | Código postal del inmueble. | 19001 |
 | province | str | Provincia donde está ubicado el inmueble. | Guadalajara |
