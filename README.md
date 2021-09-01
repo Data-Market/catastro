@@ -32,8 +32,11 @@ A continuación se muestran las columnas de las que consta el dataset junto con 
 | nombre | tipo | descripción | ejemplo |
 |--------|------|-------------|---------|
 | area | int | Superficie en m² de los que consta el inmueble. | 56 |
+| area_item | int | Superficie de cada vivienda, quitando áreas comunes y no construidas. | 45 |
 | autonomous_region | str | Comunidad autónoma a la que pertenece el inmueble. | Catilla - La Mancha |
 | description | str | Nombre descriptivo del inmueble. | Esc.E 1º DR |
+| door | str | Puerta del inmueble. | 01A |
+| floor | str | Planta del inmueble. | 02 |
 | has_doorman | bool | Indica si el edificio tiene portero. | False |
 | has_garden | bool | Si el edificio tiene jardín. | False |
 | has_lift | bool | Indica si el edificio tiene ascensor. | False |
@@ -43,13 +46,15 @@ A continuación se muestran las columnas de las que consta el dataset junto con 
 | is_resindential | bool | Indica si se trata de una vivienda (False significa que no es residencial). | True |
 | latitude | geo | Latitud en la que se encuentra el inmueble. | 40.631345746 |
 | longitude | geo | Longitud en la que se encuentra el inmueble. | -3.16518128 |
+| neighbors_per_floor | int | Número de viviendas que hay en una planta de un bloque de pisos. | 5 |
 | number | str | Número de la calle donde está ubicado el inmueble. | 34 |
 | postal_code | int | Código postal del inmueble. | 19001 |
 | province | str | Provincia donde está ubicado el inmueble. | Guadalajara |
 | reference | str | Referencia catastral. | 6180804VK8968S0004IY |
+| shared_quota | float | Porcentaje de metros cuadrados del inmueble. | 0.004 |
 | street | str | Calle donde está ubicado el inmueble. | Calle Mayor |
-| structures | str | Componentes estructurales que describen el inmueble. | [{"area": 52, "floor": "SM", "door": "27", "typology": "AAP"}, {"area": 54, "floor": "00", "door",...] |
 | total_floors | int | Número de plantas del edificio. | 5 |
 | town | str | Ciudad donde está ubicado el inmueble. | Guadalajara |
 | typology | str | Acrónimo de uso del inmueble. | M |
+| typology_item | str | Acrónimos de los diferentes tipos de construcción que presenta un inmueble. | IMD |
 | year_built | int | Año de construcción del edificio. | 1930 |
